@@ -90,7 +90,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
                             val alturaBruto = alturaTexto.toFloatOrNull()
 
                             if (peso == null || alturaBruto == null) {
-                                resultadoIMC = "⚠️ Datos no son validos ⚠️"
+                                resultadoIMC = "⚠️ Los datos no son validos ⚠️"
                                 categoriaIMC = ""
                                 mostrarDetalles = false
                                 return@Button
